@@ -1,34 +1,41 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: 'Roborto', sans-serif;
+  font-family: Roborto, sans-serif;
   font-weight: 500;
   margin: 0;
 }
-.header{
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
 }
-.logo img{
+
+.logo img {
   display: block;
   height: 40px;
 }
-.nav_list{
+
+.nav_list {
   display: flex;
   list-style: none;
 }
-.nav_item{
+
+.nav_item {
   margin-right: 20px;
 }
-.nav_item:last-child{
+
+.nav_item:last-child {
   margin-right: 0;
 }
-.nav_link{
+
+.nav_link {
   position: relative;
   display: flex;
   align-items: center;
@@ -39,14 +46,17 @@ body {
   text-transform: uppercase;
   transition: color 0.3s;
 }
-.nav_link:hover{
+
+.nav_link:hover {
   color: #00acdc;
 }
-.is-active{
+
+.is-active {
   color: #00acdc;
 }
-.is-active::after{
-  content: "";
+
+.is-active::after {
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
