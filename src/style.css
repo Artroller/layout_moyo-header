@@ -22,20 +22,20 @@ body {
   height: 40px;
 }
 
-.nav_list {
+.nav__list {
   display: flex;
   list-style: none;
 }
 
-.nav_item {
+.nav__item {
   margin-right: 20px;
 }
 
-.nav_item:last-child {
+.nav__item:last-child {
   margin-right: 0;
 }
 
-.nav_link {
+.nav__link {
   position: relative;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@ body {
   transition: color 0.3s;
 }
 
-.nav_link:hover {
+.nav__link:hover {
   color: #00acdc;
 }
 
