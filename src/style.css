@@ -9,6 +9,10 @@ body {
   font-weight: 500;
 }
 
+:root {
+  --color-active-link: #00acdc;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -40,11 +44,11 @@ body {
 }
 
 .nav__link:hover {
-  color: #00acdc;
+  color: var(--color-active-link);
 }
 
 .nav__link.is-active {
-  color: #00acdc;
+  color: var(--color-active-link);
 }
 
 .nav__link.is-active::after {
@@ -55,7 +59,7 @@ body {
   bottom: 0;
   height: 4px;
   border-radius: 8px;
-  background-color: #00acdc;
+  background-color: var(--color-active-link);
 }
 
 .nav__item:not(:last-child) {
