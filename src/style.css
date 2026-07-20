@@ -1,4 +1,5 @@
 * {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -6,13 +7,13 @@
 body {
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  margin: 0;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 60px;
   padding: 0 50px;
 }
 
@@ -22,15 +23,8 @@ body {
 
 .nav__list {
   display: flex;
+  align-items: center;
   list-style: none;
-}
-
-.nav__item {
-  margin-right: 20px;
-}
-
-.nav__item:last-child {
-  margin-right: 0;
 }
 
 .nav__link {
